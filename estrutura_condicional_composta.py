@@ -7,7 +7,16 @@ media = (n1 + n2 + n3 + n4)/4
 
 if media >= 7:
     print('Aprovado!')
-elif media >= 4 and media < 7:
+elif media >= 4 and media =< 6:
+    print('Recuperação! ')
+else:
+    print('Reprovado! ')
+
+#Outra opção: 
+
+if media > 6:
+    print('Aprovado!')
+elif media > 3 and media < 7:
     print('Recuperação! ')
 else:
     print('Reprovado! ')
